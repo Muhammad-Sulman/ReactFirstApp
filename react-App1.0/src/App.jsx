@@ -1,25 +1,20 @@
 import './App.css'
+import Header from './Header.jsx'
+import Sidebar from './Sidebar.jsx'
+import Footer from './Footer.jsx'
+import House from './House.jsx'
 
-let name = " Muhammad Suleman";
-const car_obj = {name:"BMW", color:"Black", make:"2024"};
-let a = 10;
-let msg = "";
-if(a> 5){
-  msg = "hello suleman";
-}else{
-  msg = "bye suleman";
-}
-
+let a = "Hamza"
 
 function App() {
   return (
     <>
-      <h1>Hello World Iam {name}</h1>
-      <h1>{5 + 5}</h1>
-      <h1>{car_obj.name}</h1>
-      <h2>{car_obj.color}</h2>
-      <h2>{msg}</h2>
-      <h2>{(a > 50) ? "iam ternar operator" : "iam flase result of ternary operator"}</h2>
+      <Header name="Suleman" age="21">
+        <p>hey iam children</p>
+      </Header>
+      <House/>
+      <Sidebar name={a}  age = "22"></Sidebar>
+      <Footer></Footer>
     </>
   )
 }
