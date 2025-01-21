@@ -1,9 +1,9 @@
-function Person(props){
-    return (
-        <>
-            <h1>Lives here  {props.name}</h1>
-        </>
-    );
-}
+// function Person(props){
+//     return (
+//         <>
+//             <h1>Lives here  {props.name}</h1>
+//         </>
+//     );
+// }
 
-export default Person;
+// export default Person;
