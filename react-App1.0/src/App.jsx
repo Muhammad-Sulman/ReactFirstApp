@@ -3,7 +3,8 @@ import './App.css';
 // import Sidebar from './Sidebar.jsx'
 // import Footer from './Footer.jsx'
 // import House from './House.jsx'
-import Employee from './Employee'
+// import Employee from './Employee'
+import Customer from './Customer'
 
 // let a = "Hamza"
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
@@ -17,7 +18,9 @@ function App() {
       {/* <Sidebar name={a} age="22"></Sidebar> */}
       {/* <Footer name2 = {123}></Footer> */}
 
-      <Employee name = "Suleman.." age={21} ></Employee>
+      {/* <Employee name = "Suleman.." age={21} ></Employee> */}
+      {/* <Customer name="suleman.." age = {21} ></Customer> */}
+      <Customer></Customer>
     </>
   );
 }
