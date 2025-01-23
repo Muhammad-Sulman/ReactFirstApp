@@ -4,7 +4,8 @@ import './App.css';
 // import Footer from './Footer.jsx'
 // import House from './House.jsx'
 // import Employee from './Employee'
-import Customer from './Customer'
+// import Customer from './Customer'
+// import Clickfunction from './Clickfunction'
 
 // let a = "Hamza"
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
@@ -20,7 +21,9 @@ function App() {
 
       {/* <Employee name = "Suleman.." age={21} ></Employee> */}
       {/* <Customer name="suleman.." age = {21} ></Customer> */}
-      <Customer></Customer>
+      {/* <Customer></Customer> */}
+      {/* <Clickfunction name="Suleman" ></Clickfunction> */}
+
     </>
   );
 }
