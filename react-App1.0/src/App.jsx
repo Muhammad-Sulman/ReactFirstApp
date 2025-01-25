@@ -6,6 +6,8 @@ import './App.css';
 // import Employee from './Employee'
 // import Customer from './Customer'
 // import Clickfunction from './Clickfunction'
+// import EventBinding from './EventBinding'
+import Mounting from './Mounting'
 
 // let a = "Hamza"
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
@@ -23,6 +25,8 @@ function App() {
       {/* <Customer name="suleman.." age = {21} ></Customer> */}
       {/* <Customer></Customer> */}
       {/* <Clickfunction name="Suleman" ></Clickfunction> */}
+      {/* <EventBinding></EventBinding> */}
+      <Mounting/>
 
     </>
   );
