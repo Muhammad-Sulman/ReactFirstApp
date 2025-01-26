@@ -1,4 +1,5 @@
 import './App.css';
+import ParentComponent from './ParentComponent';
 // import Header from './Header.jsx';
 // import Sidebar from './Sidebar.jsx'
 // import Footer from './Footer.jsx'
@@ -10,7 +11,7 @@ import './App.css';
 // import Mounting from './Mounting'
 // import Updating1 from './Updating1';
 // import Person2 from './Person2';
-import Parentclass from './Parentclass';
+// import Parentclass from './Parentclass';
 
 
 
@@ -34,7 +35,8 @@ function App() {
       {/* <Mounting/> */}
       {/* <Updating1></Updating1> */}
       {/* <Person2 city= "Islamabad" ></Person2> */}
-      <Parentclass></Parentclass>
+      {/* <Parentclass></Parentclass> */}
+      <ParentComponent></ParentComponent>
 
     </>
   );
