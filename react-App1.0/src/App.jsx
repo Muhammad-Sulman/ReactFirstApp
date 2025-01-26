@@ -7,7 +7,10 @@ import './App.css';
 // import Customer from './Customer'
 // import Clickfunction from './Clickfunction'
 // import EventBinding from './EventBinding'
-import Mounting from './Mounting'
+// import Mounting from './Mounting'
+import Updating1 from './Updating1';
+
+
 
 // let a = "Hamza"
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
@@ -26,7 +29,8 @@ function App() {
       {/* <Customer></Customer> */}
       {/* <Clickfunction name="Suleman" ></Clickfunction> */}
       {/* <EventBinding></EventBinding> */}
-      <Mounting/>
+      {/* <Mounting/> */}
+      <Updating1></Updating1>
 
     </>
   );
