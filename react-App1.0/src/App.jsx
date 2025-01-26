@@ -1,5 +1,7 @@
 import './App.css';
-import ParentComponent from './ParentComponent';
+import Component1 from './Component1';
+import Component2 from './Component2';
+// import ParentComponent from './ParentComponent';
 // import Header from './Header.jsx';
 // import Sidebar from './Sidebar.jsx'
 // import Footer from './Footer.jsx'
@@ -15,31 +17,62 @@ import ParentComponent from './ParentComponent';
 
 
 
+
 // let a = "Hamza"
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
 
 function App() {
+  // return (
+  //   // console.error(),
+  //   <>
+  //     {/* <Header name="Suleman" age="asd" isMarried={false} arr={friends} /> */}
+  //     {/* <House/> */}
+  //     {/* <Sidebar name={a} age="22"></Sidebar> */}
+  //     {/* <Footer name2 = {123}></Footer> */}
+
+  //     {/* <Employee name = "Suleman.." age={21} ></Employee> */}
+  //     {/* <Customer name="suleman.." age = {21} ></Customer> */}
+  //     {/* <Customer></Customer> */}
+  //     {/* <Clickfunction name="Suleman" ></Clickfunction> */}
+  //     {/* <EventBinding></EventBinding> */}
+  //     {/* <Mounting/> */}
+  //     {/* <Updating1></Updating1> */}
+  //     {/* <Person2 city= "Islamabad" ></Person2> */}
+  //     {/* <Parentclass></Parentclass> */}
+  //     {/* <ParentComponent></ParentComponent> */}
+
+  //   </>
+  // );
+
+  // let name = "Suleman";
+  // // let name = "Aqib";
+  // let data ; // element vairable
+  
+  // if (name == "Suleman") {
+  //   return <Component1></Component1>
+  // } else {
+  //   return <Component2></Component2>
+  // }
+
+
+// if (name == "Suleman") {
+//     data = <Component1></Component1>
+//   } else {
+//     data =  <Component2></Component2>
+//   }
+
+// let name = "Suleman";
+let name = "Suleman1";
+
   return (
-    // console.error(),
-    <>
-      {/* <Header name="Suleman" age="asd" isMarried={false} arr={friends} /> */}
-      {/* <House/> */}
-      {/* <Sidebar name={a} age="22"></Sidebar> */}
-      {/* <Footer name2 = {123}></Footer> */}
+    <div>
+          {/* {data} */}
+          {/* {name == "Suleman"  && <Component1></Component1>} */}
+          {name == "Suleman" ? <Component1></Component1> : <Component2></Component2>}
+    </div>
+  )
 
-      {/* <Employee name = "Suleman.." age={21} ></Employee> */}
-      {/* <Customer name="suleman.." age = {21} ></Customer> */}
-      {/* <Customer></Customer> */}
-      {/* <Clickfunction name="Suleman" ></Clickfunction> */}
-      {/* <EventBinding></EventBinding> */}
-      {/* <Mounting/> */}
-      {/* <Updating1></Updating1> */}
-      {/* <Person2 city= "Islamabad" ></Person2> */}
-      {/* <Parentclass></Parentclass> */}
-      <ParentComponent></ParentComponent>
 
-    </>
-  );
 }
 
 export default App;
