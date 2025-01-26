@@ -8,7 +8,8 @@ import './App.css';
 // import Clickfunction from './Clickfunction'
 // import EventBinding from './EventBinding'
 // import Mounting from './Mounting'
-import Updating1 from './Updating1';
+// import Updating1 from './Updating1';
+import Person2 from './Person2';
 
 
 
@@ -30,7 +31,8 @@ function App() {
       {/* <Clickfunction name="Suleman" ></Clickfunction> */}
       {/* <EventBinding></EventBinding> */}
       {/* <Mounting/> */}
-      <Updating1></Updating1>
+      {/* <Updating1></Updating1> */}
+      <Person2 city= "Islamabad" ></Person2>
 
     </>
   );
