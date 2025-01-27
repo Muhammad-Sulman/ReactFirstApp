@@ -1,4 +1,5 @@
 import './App.css';
+import Externalcss from './Externalcss';
 // import Students from './Students';
 // import Component1 from './Component1';
 // import Component2 from './Component2';
@@ -15,6 +16,7 @@ import './App.css';
 // import Updating1 from './Updating1';
 // import Person2 from './Person2';
 // import Parentclass from './Parentclass';
+// import StylingComponent from './StylingComponent';
 
 
 
@@ -30,7 +32,6 @@ function App() {
        {/* <House/> */}
        {/* <Sidebar name={a} age="22"></Sidebar> */}
        {/* <Footer name2 = {123}></Footer> */}
-
        {/* <Employee name = "Suleman.." age={21} ></Employee> */}
        {/* <Customer name="suleman.." age = {21} ></Customer> */}
        {/* <Customer></Customer> */}
@@ -42,6 +43,8 @@ function App() {
        {/* <Parentclass></Parentclass> */}
        {/* <ParentComponent></ParentComponent> */}
           {/* <Students></Students> */}
+          {/* <StylingComponent></StylingComponent> */}
+          <Externalcss check={true}></Externalcss>
 
       </>
     );

@@ -1,0 +1,14 @@
+.color{
+    color: green;
+    background-color: white;
+}
+
+.font{
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+.thiredclass{
+    font-family: 'Courier New', Courier, monospace;
+}
