@@ -1,5 +1,5 @@
 import './App.css';
-import Students from './Students';
+// import Students from './Students';
 // import Component1 from './Component1';
 // import Component2 from './Component2';
 // import ParentComponent from './ParentComponent';
@@ -23,9 +23,9 @@ import Students from './Students';
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
 
 function App() {
-   return (
+    return (
   //   // console.error(),
-     <>
+      <>
        {/* <Header name="Suleman" age="asd" isMarried={false} arr={friends} /> */}
        {/* <House/> */}
        {/* <Sidebar name={a} age="22"></Sidebar> */}
@@ -41,10 +41,10 @@ function App() {
        {/* <Person2 city= "Islamabad" ></Person2> */}
        {/* <Parentclass></Parentclass> */}
        {/* <ParentComponent></ParentComponent> */}
-          <Students></Students>
+          {/* <Students></Students> */}
 
-     </>
-   );
+      </>
+    );
 
   // let name = "Suleman";
   // // let name = "Aqib";
