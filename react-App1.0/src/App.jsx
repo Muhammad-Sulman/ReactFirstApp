@@ -1,5 +1,7 @@
 import './App.css';
-import Externalcss from './Externalcss';
+import Stylesheet1 from './Stylesheet1';
+import Stylesheet2 from './Stylesheet2';
+// import Externalcss from './Externalcss';
 // import Students from './Students';
 // import Component1 from './Component1';
 // import Component2 from './Component2';
@@ -44,7 +46,10 @@ function App() {
        {/* <ParentComponent></ParentComponent> */}
           {/* <Students></Students> */}
           {/* <StylingComponent></StylingComponent> */}
-          <Externalcss check={true}></Externalcss>
+          {/* <Externalcss check={true}></Externalcss> */}
+          <Stylesheet2></Stylesheet2>
+          <Stylesheet1></Stylesheet1>
+          
 
       </>
     );
