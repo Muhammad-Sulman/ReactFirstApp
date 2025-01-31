@@ -10,6 +10,25 @@ function Objusestate() {
     }
 
     let [person, setPerson] = useState(obj);
+    // let changeState = () => {
+    //     setPerson({
+    //         name: "Ali",
+    //         age: 27,
+    //         height: 5.4,
+    //         isyoung: true
+    //     });
+    // }
+
+    let changeState = () => {
+        setPerson(perviousState => {
+            return{
+            ...perviousState,
+                name: "Ali"
+            }
+            
+        });
+    }
+    
     return (
         <div>
             <ul>
@@ -18,6 +37,7 @@ function Objusestate() {
                 <li>{person.height}</li>
                 <li>{person.isyoung.toString()}</li>
             </ul>
+            <button onClick={changeState}>Update</button>
         </div>
     )
 }
