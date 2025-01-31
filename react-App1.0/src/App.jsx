@@ -21,6 +21,8 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
+import UsedstateComponent from "./UsedstateComponent";
+
 
 
 // let a = "Hamza"
@@ -49,8 +51,8 @@ function App() {
           {/* <Externalcss check={true}></Externalcss> */}
           {/* <Stylesheet2></Stylesheet2>
           <Stylesheet1></Stylesheet1> */}
-          <BsComponent></BsComponent>
-          
+          {/* <BsComponent></BsComponent> */}
+          <UsedstateComponent></UsedstateComponent>
 
       </>
     );
