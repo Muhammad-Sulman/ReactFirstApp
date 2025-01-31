@@ -21,7 +21,9 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import Objusestate from "./Objusestate";
+import Arrayusestate from "./Arrayusestate";
+
+// import Objusestate from "./Objusestate";
 
 // import UsedstateComponent from "./UsedstateComponent";
 
@@ -56,7 +58,8 @@ function App() {
           <Stylesheet1></Stylesheet1> */}
           {/* <BsComponent></BsComponent> */}
           {/* <UsedstateComponent></UsedstateComponent> */}
-          <Objusestate></Objusestate>
+          {/* <Objusestate></Objusestate> */}
+          <Arrayusestate></Arrayusestate>
 
 
       </>
