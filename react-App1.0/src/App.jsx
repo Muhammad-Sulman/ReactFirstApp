@@ -21,10 +21,11 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import Arrayusestate from "./Arrayusestate";
+// import Arrayusestate from "./Arrayusestate";
 
 // import Objusestate from "./Objusestate";
-
+import ClassState from "./ClassState";
+import FunctionalState from "./FunctionalState";
 // import UsedstateComponent from "./UsedstateComponent";
 
 
@@ -59,7 +60,9 @@ function App() {
           {/* <BsComponent></BsComponent> */}
           {/* <UsedstateComponent></UsedstateComponent> */}
           {/* <Objusestate></Objusestate> */}
-          <Arrayusestate></Arrayusestate>
+          {/* <Arrayusestate></Arrayusestate> */}
+          <ClassState></ClassState>
+          <FunctionalState></FunctionalState>
 
 
       </>
