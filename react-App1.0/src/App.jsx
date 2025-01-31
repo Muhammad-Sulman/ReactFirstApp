@@ -1,6 +1,6 @@
-import './App.css';
-import Stylesheet1 from './Stylesheet1';
-import Stylesheet2 from './Stylesheet2';
+// import './App.css';
+// import Stylesheet1 from './Stylesheet1';
+// import Stylesheet2 from './Stylesheet2';
 // import Externalcss from './Externalcss';
 // import Students from './Students';
 // import Component1 from './Component1';
@@ -19,7 +19,7 @@ import Stylesheet2 from './Stylesheet2';
 // import Person2 from './Person2';
 // import Parentclass from './Parentclass';
 // import StylingComponent from './StylingComponent';
-
+// import BsComponent from './BsComponent';
 
 
 
@@ -47,8 +47,9 @@ function App() {
           {/* <Students></Students> */}
           {/* <StylingComponent></StylingComponent> */}
           {/* <Externalcss check={true}></Externalcss> */}
-          <Stylesheet2></Stylesheet2>
-          <Stylesheet1></Stylesheet1>
+          {/* <Stylesheet2></Stylesheet2>
+          <Stylesheet1></Stylesheet1> */}
+          <BsComponent></BsComponent>
           
 
       </>
