@@ -21,7 +21,10 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import UseEffectComp from "./UseEffectComp";
+import { createContext } from "react";
+import Comp_A from "./comp_A";
+
+// import UseEffectComp from "./UseEffectComp";
 
 // import Arrayusestate from "./Arrayusestate";
 
@@ -35,6 +38,11 @@ import UseEffectComp from "./UseEffectComp";
 
 // let a = "Hamza"
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
+
+// useContext hook
+export const NameContext =  createContext();
+export const Friend =  createContext();
+
 
 function App() {
     return (
@@ -65,7 +73,12 @@ function App() {
           {/* <Arrayusestate></Arrayusestate> */}
           {/* <ClassState></ClassState>
           <FunctionalState></FunctionalState> */}
-          <UseEffectComp></UseEffectComp>
+          {/* <UseEffectComp></UseEffectComp> */}
+          <NameContext.Provider  value={"Suleman"}>
+            <Friend.Provider value={"Muzamil"}>
+            <Comp_A></Comp_A>
+            </Friend.Provider>
+          </NameContext.Provider>
 
 
 
