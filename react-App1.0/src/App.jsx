@@ -21,11 +21,13 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
+import UseEffectComp from "./UseEffectComp";
+
 // import Arrayusestate from "./Arrayusestate";
 
 // import Objusestate from "./Objusestate";
-import ClassState from "./ClassState";
-import FunctionalState from "./FunctionalState";
+// import ClassState from "./ClassState";
+// import FunctionalState from "./FunctionalState";
 // import UsedstateComponent from "./UsedstateComponent";
 
 
@@ -61,8 +63,10 @@ function App() {
           {/* <UsedstateComponent></UsedstateComponent> */}
           {/* <Objusestate></Objusestate> */}
           {/* <Arrayusestate></Arrayusestate> */}
-          <ClassState></ClassState>
-          <FunctionalState></FunctionalState>
+          {/* <ClassState></ClassState>
+          <FunctionalState></FunctionalState> */}
+          <UseEffectComp></UseEffectComp>
+
 
 
       </>
