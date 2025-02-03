@@ -21,7 +21,9 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import ControlledComp from "./ControlledComp";
+// import ControlledFunction from "./ControlledFunction";
+
+// import ControlledComp from "./ControlledComp";
 
 // import { createContext } from "react";
 // import Comp_A from "./comp_A";
@@ -81,7 +83,8 @@ function App() {
             <Comp_A></Comp_A>
             </Friend.Provider>
           </NameContext.Provider> */}
-          <ControlledComp></ControlledComp>
+          {/* <ControlledComp></ControlledComp> */}
+          {/* <ControlledFunction/> */}
 
 
 
