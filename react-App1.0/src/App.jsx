@@ -21,6 +21,8 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
+import MultipleInput from "./MultipleInput";
+
 // import ControlledFunction from "./ControlledFunction";
 
 // import ControlledComp from "./ControlledComp";
@@ -85,7 +87,7 @@ function App() {
           </NameContext.Provider> */}
           {/* <ControlledComp></ControlledComp> */}
           {/* <ControlledFunction/> */}
-
+          <MultipleInput/>
 
 
       </>
