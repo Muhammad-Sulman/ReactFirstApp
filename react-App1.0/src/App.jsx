@@ -21,8 +21,10 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import { createContext } from "react";
-import Comp_A from "./comp_A";
+import ControlledComp from "./ControlledComp";
+
+// import { createContext } from "react";
+// import Comp_A from "./comp_A";
 
 // import UseEffectComp from "./UseEffectComp";
 
@@ -40,8 +42,8 @@ import Comp_A from "./comp_A";
 // const friends = ["Ali", "Hamza", "Muzamil", "Shah"];
 
 // useContext hook
-export const NameContext =  createContext();
-export const Friend =  createContext();
+// export const NameContext =  createContext();
+// export const Friend =  createContext();
 
 
 function App() {
@@ -74,11 +76,12 @@ function App() {
           {/* <ClassState></ClassState>
           <FunctionalState></FunctionalState> */}
           {/* <UseEffectComp></UseEffectComp> */}
-          <NameContext.Provider  value={"Suleman"}>
+          {/* <NameContext.Provider  value={"Suleman"}>
             <Friend.Provider value={"Muzamil"}>
             <Comp_A></Comp_A>
             </Friend.Provider>
-          </NameContext.Provider>
+          </NameContext.Provider> */}
+          <ControlledComp></ControlledComp>
 
 
 
