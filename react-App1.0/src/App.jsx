@@ -21,7 +21,9 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import MultipleInputinfun_comp from "./MultipleInputinfun_comp";
+import OtherInputs from "./OtherInputs";
+
+// import MultipleInputinfun_comp from "./MultipleInputinfun_comp";
 
 // import MultipleInput from "./MultipleInput";
 
@@ -90,7 +92,8 @@ function App() {
           {/* <ControlledComp></ControlledComp> */}
           {/* <ControlledFunction/> */}
           {/* <MultipleInput/> */}
-          <MultipleInputinfun_comp/>
+          {/* <MultipleInputinfun_comp/> */}
+          <OtherInputs/>
 
       </>
     );
