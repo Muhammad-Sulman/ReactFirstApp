@@ -21,7 +21,9 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import OtherInputs from "./OtherInputs";
+import MultipleCheckBoxes from "./MultipleCheckBoxes";
+
+// import OtherInputs from "./OtherInputs";
 
 // import MultipleInputinfun_comp from "./MultipleInputinfun_comp";
 
@@ -93,7 +95,10 @@ function App() {
           {/* <ControlledFunction/> */}
           {/* <MultipleInput/> */}
           {/* <MultipleInputinfun_comp/> */}
-          <OtherInputs/>
+          {/* <OtherInputs/> */}
+          <MultipleCheckBoxes/>
+
+
 
       </>
     );
