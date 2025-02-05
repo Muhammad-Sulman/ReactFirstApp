@@ -1,4 +1,5 @@
 import './App.css';
+import UnControlled_Comp from './UnControlled_Comp';
 // import Stylesheet1 from './Stylesheet1';
 // import Stylesheet2 from './Stylesheet2';
 // import Externalcss from './Externalcss';
@@ -21,7 +22,7 @@ import './App.css';
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import Refs from "./Refs";
+// import Refs from "./Refs";
 
 // import MultipleCheckBoxes from "./MultipleCheckBoxes";
 
@@ -99,7 +100,8 @@ function App() {
           {/* <MultipleInputinfun_comp/> */}
           {/* <OtherInputs/> */}
           {/* <MultipleCheckBoxes/> */}
-          <Refs/>
+          {/* <Refs/> */}
+          <UnControlled_Comp/>
 
 
       </>
