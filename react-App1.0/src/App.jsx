@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 // import Stylesheet1 from './Stylesheet1';
 // import Stylesheet2 from './Stylesheet2';
 // import Externalcss from './Externalcss';
@@ -21,7 +21,9 @@
 // import StylingComponent from './StylingComponent';
 // import BsComponent from './BsComponent';
 
-import MultipleCheckBoxes from "./MultipleCheckBoxes";
+import Refs from "./Refs";
+
+// import MultipleCheckBoxes from "./MultipleCheckBoxes";
 
 // import OtherInputs from "./OtherInputs";
 
@@ -96,8 +98,8 @@ function App() {
           {/* <MultipleInput/> */}
           {/* <MultipleInputinfun_comp/> */}
           {/* <OtherInputs/> */}
-          <MultipleCheckBoxes/>
-
+          {/* <MultipleCheckBoxes/> */}
+          <Refs/>
 
 
       </>
