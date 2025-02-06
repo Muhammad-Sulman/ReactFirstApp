@@ -1,5 +1,10 @@
 import './App.css';
-import UseRefHook_Comp from './UseRefHook_Comp';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import About from './components/About';
+import NavBar from './components/NavBar';
+// import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
 // import Stylesheet1 from './Stylesheet1';
@@ -105,7 +110,13 @@ function App() {
           {/* <Refs/> */}
           {/* <UnControlled_Comp/> */}
           {/* <CallBackRef_Comp/> */}
-          <UseRefHook_Comp/>
+          {/* <UseRefHook_Comp/> */}
+          <NavBar/>
+          <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/contact' element={<Contact/>} />
+          </Routes>
 
 
       </>
