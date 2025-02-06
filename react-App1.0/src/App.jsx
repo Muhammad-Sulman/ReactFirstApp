@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
@@ -67,6 +67,26 @@ import NavBar from './components/NavBar';
 
 
 function App() {
+
+const navigate = useNavigate();
+
+// const navigateToAbout = () => {
+//   navigate('/About');
+// }
+
+const navigateTo = (url) => {
+  navigate(url);
+}
+
+// const navigateToWhere = () => {
+//   let name = 'suleman';
+//   if(name == 'suleman'){
+//     navigate('/About');
+//   }else{
+//     navigate('/Contact');
+//   }
+// }
+
     return (
   //   // console.error(),
       <>
@@ -117,6 +137,15 @@ function App() {
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
           </Routes>
+          {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
+          <button type="button" onClick={() => navigate('/Contact')} >Contact</button> */}
+
+          {/* <button type="button" onClick={navigateToAbout} >About</button> &nbsp; &nbsp; */}
+          <button type="button" onClick={() => navigateTo('/Contact')} >Contact</button> &nbsp; &nbsp;
+          <button type="button" onClick={() => navigateTo('/About')} >About</button>&nbsp; &nbsp;
+
+          {/* <button type="button" onClick={() => navigateToWhere()} >Click Me</button> */}
+          <button onClick={() => navigate(-1)} >Go Back</button>
 
 
       </>
