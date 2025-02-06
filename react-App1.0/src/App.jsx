@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import NavBar from './components/NavBar';
+import PageNotFound from './components/PageNotFound';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -136,6 +137,7 @@ const navigateTo = (url) => {
             <Route path='/' element={<Home/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
+            <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
           <button type="button" onClick={() => navigate('/Contact')} >Contact</button> */}
