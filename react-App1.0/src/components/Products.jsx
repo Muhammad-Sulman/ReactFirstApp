@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router-dom"
 
 
 function Products() {
-  return (
+    return (
     <>
     <div><h1>Products</h1></div>
     <nav>
@@ -11,7 +11,7 @@ function Products() {
     </nav>
     <Outlet></Outlet>
     </>
-  )
+    )
 }
 
 export default Products

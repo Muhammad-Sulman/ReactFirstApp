@@ -139,6 +139,7 @@ const navigateTo = (url) => {
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} >
+            <Route index element={<Shirts/>} />
             <Route path='shirts' element={<Shirts/>} />
             <Route path='jeans' element={<Jeans/>}/>
             </Route>
