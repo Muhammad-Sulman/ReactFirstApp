@@ -5,6 +5,9 @@ import Contact from './components/Contact';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import PageNotFound from './components/PageNotFound';
+import Products from './components/Products';
+import Shirts from './components/Shirts';
+import Jeans from './components/Jeans';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -135,6 +138,10 @@ const navigateTo = (url) => {
           <NavBar/>
           <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='/products' element={<Products/>} >
+            <Route path='shirts' element={<Shirts/>} />
+            <Route path='jeans' element={<Jeans/>}/>
+            </Route>
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
             <Route path='*' element={<PageNotFound/>} />
@@ -143,8 +150,8 @@ const navigateTo = (url) => {
           <button type="button" onClick={() => navigate('/Contact')} >Contact</button> */}
 
           {/* <button type="button" onClick={navigateToAbout} >About</button> &nbsp; &nbsp; */}
-          <button type="button" onClick={() => navigateTo('/Contact')} >Contact</button> &nbsp; &nbsp;
-          <button type="button" onClick={() => navigateTo('/About')} >About</button>&nbsp; &nbsp;
+          <button type="button" onClick={() => navigateTo('/contact')} >Contact</button> &nbsp; &nbsp;
+          <button type="button" onClick={() => navigateTo('/about')} >About</button>&nbsp; &nbsp;
 
           {/* <button type="button" onClick={() => navigateToWhere()} >Click Me</button> */}
           <button onClick={() => navigate(-1)} >Go Back</button>
