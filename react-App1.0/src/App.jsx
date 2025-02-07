@@ -5,12 +5,13 @@ import Contact from './components/Contact';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import PageNotFound from './components/PageNotFound';
-import Products from './components/Products';
-import Shirts from './components/Shirts';
-import Jeans from './components/Jeans';
-import Users from './components/Users';
-import UserDetialPage from './components/UserDetialPage';
-import Admin from './components/Admin';
+// import Products from './components/Products';
+// import Shirts from './components/Shirts';
+// import Jeans from './components/Jeans';
+// import Users from './components/Users';
+// import UserDetialPage from './components/UserDetialPage';
+// import Admin from './components/Admin';
+import Search from './components/Search';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -141,11 +142,11 @@ const navigateTo = (url) => {
           <NavBar/>
           <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/products' element={<Products/>} >
+            {/* <Route path='/products' element={<Products/>} >
             <Route index element={<Shirts/>} />
             <Route path='shirts' element={<Shirts/>} />
             <Route path='jeans' element={<Jeans/>}/>
-            </Route>
+            </Route> */}
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
             {/* <Route path='/users' element={<Users/>} /> */}
@@ -153,11 +154,12 @@ const navigateTo = (url) => {
             <Route path='/users/2' element={<UserDetialPage/>} />
             <Route path='/users/3' element={<UserDetialPage/>} /> */}
             {/* <Route path='/users/:id' element={<UserDetialPage/>} /> */}
-            <Route path='/users' element={<Users/>} >
+            {/* <Route path='/users' element={<Users/>} >
             <Route path=':id' element={<UserDetialPage/>} />
             <Route path='admin' element={<Admin/>} />
-            </Route>
-
+            </Route> */}
+    
+            <Route path='/search' element={<Search/>} />
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
