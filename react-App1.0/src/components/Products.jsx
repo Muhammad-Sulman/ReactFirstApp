@@ -9,6 +9,7 @@ function Products() {
         <Link to={'shirts'} >Shirts</Link>
         <Link to={'jeans'} >Jeans</Link>
     </nav>
+    
     <Outlet></Outlet>
     </>
     )
