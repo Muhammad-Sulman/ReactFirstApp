@@ -13,6 +13,7 @@ import PageNotFound from './components/PageNotFound';
 // import Admin from './components/Admin';
 import Search from './components/Search';
 import LazyLoading from './components/LazyLoading';
+import Validation from './Validation';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -161,14 +162,8 @@ const navigateTo = (url) => {
             </Route> */}
     
             <Route path='/search' element={<Search/>} />
-
             <Route path= '/lazyloading' element={<LazyLoading/>} />
-
-
-
-
-
-
+            <Route path= '/validation' element={<Validation/>} />
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
