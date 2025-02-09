@@ -14,6 +14,7 @@ import PageNotFound from './components/PageNotFound';
 import Search from './components/Search';
 import LazyLoading from './components/LazyLoading';
 import Validation from './Validation';
+import FormikForm from './components/FormikForm';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -164,6 +165,7 @@ const navigateTo = (url) => {
             <Route path='/search' element={<Search/>} />
             <Route path= '/lazyloading' element={<LazyLoading/>} />
             <Route path= '/validation' element={<Validation/>} />
+            <Route path='/formikform' element={<FormikForm/>} />
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
