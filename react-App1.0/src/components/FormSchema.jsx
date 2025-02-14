@@ -26,6 +26,7 @@ export const FormSchema = Yup.object({
     password: Yup.string()
         .required('Password is required')
         .matches(
+            // eslint-disable-next-line no-useless-escape
             /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/,
             'Password must be at least 8 characters, include one uppercase, one lowercase, one number, and one special character'
         ),
