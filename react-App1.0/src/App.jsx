@@ -1,9 +1,10 @@
 import './App.css';
-import { Routes, Route, useNavigate } from 'react-router-dom';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import About from './components/About';
-import NavBar from './components/NavBar';
+// import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+// import Home from './components/Home';
+// import Contact from './components/Contact';
+// import About from './components/About';
+// import NavBar from './components/NavBar';
 import PageNotFound from './components/PageNotFound';
 // import Products from './components/Products';
 // import Shirts from './components/Shirts';
@@ -15,6 +16,7 @@ import Search from './components/Search';
 import LazyLoading from './components/LazyLoading';
 import Validation from './Validation';
 import FormikForm from './components/FormikForm';
+import FormikForm2 from './components/FormikForm2';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -79,15 +81,15 @@ import FormikForm from './components/FormikForm';
 
 function App() {
 
-const navigate = useNavigate();
+// const navigate = useNavigate();
 
 // const navigateToAbout = () => {
 //   navigate('/About');
 // }
 
-const navigateTo = (url) => {
-  navigate(url);
-}
+// const navigateTo = (url) => {
+//   navigate(url);
+// }
 
 // const navigateToWhere = () => {
 //   let name = 'suleman';
@@ -142,16 +144,16 @@ const navigateTo = (url) => {
           {/* <UnControlled_Comp/> */}
           {/* <CallBackRef_Comp/> */}
           {/* <UseRefHook_Comp/> */}
-          <NavBar/>
+          {/* <NavBar/> */}
           <Routes>
-            <Route path='/' element={<Home/>} />
+            {/* <Route path='/' element={<Home/>} /> */}
             {/* <Route path='/products' element={<Products/>} >
             <Route index element={<Shirts/>} />
             <Route path='shirts' element={<Shirts/>} />
             <Route path='jeans' element={<Jeans/>}/>
             </Route> */}
-            <Route path='/about' element={<About/>} />
-            <Route path='/contact' element={<Contact/>} />
+            {/* <Route path='/about' element={<About/>} />
+            <Route path='/contact' element={<Contact/>} /> */}
             {/* <Route path='/users' element={<Users/>} /> */}
             {/* <Route path='/users/1' element={<UserDetialPage/>} />
             <Route path='/users/2' element={<UserDetialPage/>} />
@@ -166,17 +168,18 @@ const navigateTo = (url) => {
             <Route path= '/lazyloading' element={<LazyLoading/>} />
             <Route path= '/validation' element={<Validation/>} />
             <Route path='/formikform' element={<FormikForm/>} />
+            <Route path='/formikform2' element={<FormikForm2/>} />
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
           <button type="button" onClick={() => navigate('/Contact')} >Contact</button> */}
 
           {/* <button type="button" onClick={navigateToAbout} >About</button> &nbsp; &nbsp; */}
-          <button type="button" onClick={() => navigateTo('/contact')} >Contact</button> &nbsp; &nbsp;
-          <button type="button" onClick={() => navigateTo('/about')} >About</button>&nbsp; &nbsp;
+          {/* <button type="button" onClick={() => navigateTo('/contact')} >Contact</button> &nbsp; &nbsp;
+          <button type="button" onClick={() => navigateTo('/about')} >About</button>&nbsp; &nbsp; */}
 
           {/* <button type="button" onClick={() => navigateToWhere()} >Click Me</button> */}
-          <button onClick={() => navigate(-1)} >Go Back</button>
+          {/* <button onClick={() => navigate(-1)} >Go Back</button> */}
 
 
       </>
