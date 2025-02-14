@@ -17,6 +17,7 @@ import LazyLoading from './components/LazyLoading';
 import Validation from './Validation';
 import FormikForm from './components/FormikForm';
 import FormikForm2 from './components/FormikForm2';
+import ReactBS from './components/ReactBS';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -169,6 +170,7 @@ function App() {
             <Route path= '/validation' element={<Validation/>} />
             <Route path='/formikform' element={<FormikForm/>} />
             <Route path='/formikform2' element={<FormikForm2/>} />
+            <Route path='/reactbs' element={<ReactBS />} />
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
