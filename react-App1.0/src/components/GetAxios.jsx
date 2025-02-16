@@ -8,8 +8,10 @@ function GetAxios() {
     useEffect(() => {
         Axios.get(baseUrl).then((response) => {
             setData(response.data);
+        }).catch((error) => {
+            console.log(error);
         });
-    });
+    }, []);
     return (
         <div>
             {
