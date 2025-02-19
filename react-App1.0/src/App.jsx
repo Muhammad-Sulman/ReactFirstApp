@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 // import Home from './components/Home';
@@ -23,6 +23,9 @@ import ReducesHook from './components/ReducesHook';
 import FetchApi from './components/FetchApi';
 import GetAxios from './components/GetAxios';
 import PostAxios from './components/PostAxios';
+import CrudApp from './components/CrudApp';
+import Read from './components/Read';
+import Edit from './components/Edit';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -181,6 +184,9 @@ function App() {
             <Route path='/fetchapi'   element={<FetchApi/> } ></Route>
             <Route path='/getaxios' element={<GetAxios/>}  />
             <Route path='/postaxios' element={<PostAxios/>} />
+            <Route path='/crudapp'  element={<CrudApp/>}   />
+            <Route path='/read'    element={<Read/>} ></Route>
+            <Route path='/edit'  element = {<Edit/> } ></Route>
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;
