@@ -4,15 +4,20 @@ import {BrowserRouter} from 'react-router-dom';
 // import './index.css'
 import App from './App.jsx'
 // import User from './User.jsx'
-
 // import Header from './Header.jsx'
 // import Sidebar from './Sidebar.jsx'
 // import Footer from './Footer.jsx'
+import store from "./store.js"
+import { Provider } from "react-redux"
+store.subscribe(() => console.log(store.getState()) );
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
     </BrowserRouter>
     {/* <User/> */}
 
