@@ -27,6 +27,7 @@ import CrudApp from './components/CrudApp';
 import Read from './components/Read';
 import Edit from './components/Edit';
 import ReduxCounter from './components/ReduxCounter';
+import CounterReduxToolKit from './components/CounterReduxToolKit';
 // import UseRefHook_Comp from './UseRefHook_Comp';
 // import CallBackRef_Comp from './CallBackRef_Comp';
 // import UnControlled_Comp from './UnControlled_Comp';
@@ -189,6 +190,7 @@ function App() {
             <Route path='/read'    element={<Read/>} ></Route>
             <Route path='/edit'  element = {<Edit/> } ></Route>
             <Route path='/reduxcounter' element = {<ReduxCounter/> } />
+            <Route path='/counterreduxtoolkit' element={<CounterReduxToolKit/>} />
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
           {/* <button type="button" onClick={() => navigate('/about')} >About</button> &nbsp; &nbsp;

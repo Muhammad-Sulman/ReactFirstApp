@@ -7,7 +7,8 @@ import App from './App.jsx'
 // import Header from './Header.jsx'
 // import Sidebar from './Sidebar.jsx'
 // import Footer from './Footer.jsx'
-import store from "./store.js"
+// import store from "./store.js"
+import {store} from "./reduxtoolkit/_store.js"
 import { Provider } from "react-redux"
 store.subscribe(() => console.log(store.getState()) );
 
